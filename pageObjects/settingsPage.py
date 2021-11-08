@@ -16,7 +16,7 @@ class settingsPageUI:
     img_loadingHide_xpath = "//div[@id='ajax_loading' and @style='display: none;']"
     lbl_invalidCharacter_xpath = "//span[text()='Please enter your phone number in the following format: 0412 345 678 or 02 1234 5678']"
     lbl_updateSuccess_xpath = "//*[contains(text(), 'Success')]"
-    span_closeSuccess_xpath = "//a[@class='close-reveal-modal']"
+    span_closeSuccess_xpath = "//div[@class='form_info_popup reveal-modal padding-none open']//following::a[@class='close-reveal-modal']"
     link_logout_xpath = "//a[@id='logout-link']"
     delay = 120
 
